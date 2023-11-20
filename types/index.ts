@@ -7,7 +7,7 @@ export interface CustomButtonProps {
   btnType?: "button" | "submit";
 }
 
-export interface Manufacturer {
+export interface SearchManuFacturerProps {
   manufacturer: string;
   //    setManufacturer:React.Dispatch<React.SetStateAction<String>>
   setManufacturer:(manufacturer:string) => void
